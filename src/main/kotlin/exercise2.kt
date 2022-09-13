@@ -3,16 +3,11 @@ fun main()
     val obj = ArrayList<Student> (6)
     obj.add(Student())
 
-    obj.add(Student("20012021066","CE","D","AB8","Smit","Patel",20))
-
-    obj.add(Student("20012021053","IT","F","AB11","Hari","Changecha",
-        21))
-
-    obj.add(Student("20012021034","CE","B","AB15","Ankit","Vasoya",18
-    ))
-    obj.add(Student("20012021010","IT","A","AB6","Ram","Thakkar",
-        17))
-    obj.add(Student("20012021059","CE- AI","C","AB9","Rohit","Patel",19))
+    obj.add(Student("20012021073","IT","D","AB15","Anjan","Soni",21))
+    obj.add(Student("20012011009","CE","C","AB11","Kumkum","Barot", 20))
+    obj.add(Student("20012021045","CE","B","AB09","Keyuri","Rabadiya",19))
+    obj.add(Student("20012021032","IT","A","AB08","Karm","Patel", 20))
+    obj.add(Student("20012021059","IT","C","AB15","Aryan","Soni",21))
         for (i in obj)
         {
             i.details()
